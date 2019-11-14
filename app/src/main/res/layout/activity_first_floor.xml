@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar">
+    </include>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/colorNokia"
+        app:srcCompat="@mipmap/img_room_nokia" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_weight="0"
+            android:layout_margin="20sp"
+            android:id="@+id/ll_ff_musca"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_musca"
+                android:textColor="@color/colorWhite" />
+            <ImageView
+                android:id="@+id/btn_musca"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_musca"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+            <TextView
+                android:id="@+id/tv_ostatus_musca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_musca"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_bookroom_musca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="20sp"
+            android:id="@+id/ll_ff_mensa"
+            android:layout_weight="0"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_mensa"
+                android:textColor="@color/colorWhite" />
+            <ImageView
+                android:id="@+id/btn_mensa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_mensa"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_ostatus_mensa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_mensa"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_bookroom_mensa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_weight="0"
+            android:id="@+id/ll_ff_norma"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_norma"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/btn_norma"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_norma"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_ostatus_norma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_norma"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+            <TextView
+                android:id="@+id/tv_bookroom_norma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_weight="0"
+            android:layout_margin="20sp"
+            android:id="@+id/ll_ff_lyra"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_lyra"
+                android:textColor="@color/colorWhite" />
+            <ImageView
+                android:id="@+id/btn_lyra"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_lyra"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_ostatus_lyra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_lyra"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_bookroom_lyra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_firstflr_refresh"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:background="@mipmap/ic_refresh" />-->
+</LinearLayout>

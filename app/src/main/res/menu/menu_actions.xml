@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <!--<item-->
+        <!--android:id ="@+id/action_settings"-->
+    <!--android:title="@string/menu_action_settings" />-->
+    <item
+        android:id ="@+id/action_contactus"
+        app:showAsAction="never"
+        android:title="@string/menu_action_contactus" />
+    <item
+        android:id ="@+id/action_about"
+        android:title="@string/menu_action_about"
+        app:showAsAction="never"/>
+    <item
+        android:id ="@+id/action_logout"
+        app:showAsAction="never"
+        android:title="@string/menu_action_logout" />
+    <item
+        android:id ="@+id/action_faq"
+        app:showAsAction="never"
+        android:title="@string/menu_action_faq" />
+    <item
+        android:id ="@+id/action_home"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_home"
+        android:title="@string/menu_action_home" />
+    <item
+        android:id ="@+id/action_refresh"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_refresh"
+        android:title="@string/menu_action_home" />
+
+</menu>

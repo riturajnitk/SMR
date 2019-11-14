@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".FaqActivity">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/colorNokia"
+        app:srcCompat="@mipmap/img_room_nokia" />
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="gravity"-->
+        <!--android:text="Q-1.How to check Physical Status of Room?"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textSize="14sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/colorBlack" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="gravity"-->
+        <!--android:text="Ans: Icon Colour signifies the Occupancy Status of Room:-->
+        <!--RED - Already Occupied,-->
+        <!--Green - Free-->
+        <!--GRAY-Status not Available."-->
+        <!--android:textSize="12sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:layout_gravity="fill_horizontal"-->
+        <!--android:textColor="@color/colorBlack" />-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="gravity"-->
+        <!--android:text="Q-1.How to check Outlook Status of Room?"-->
+        <!--android:textSize="14sp"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/colorBlack" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="gravity"-->
+        <!--android:layout_margin="1dp"-->
+        <!--android:text="Ans: Icon Colour signifies the Booking Status of Room:-->
+        <!--RED - Already Booked-->
+        <!--Green - Available for Booking-->
+        <!--GRAY-Status not Available."-->
+        <!--android:textSize="12sp"-->
+        <!--android:textStyle="normal"-->
+        <!--android:layout_gravity="fill"-->
+        <!--android:textColor="@color/colorBlack" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Q-1.How to check Physical Status of Room?"
+        android:layout_margin="1dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Ans. Icon Colour signifies the Occupancy Status i.e room is occupied by someone or not."
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_margin="1dp"
+        android:layout_gravity="fill_horizontal"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:drawableLeft="@drawable/icn_red"
+        android:text=" Occupied"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_margin="1dp"
+        android:layout_gravity="fill_horizontal"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:drawableLeft="@drawable/icn_green"
+        android:text=" Free"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_margin="1dp"
+        android:layout_gravity="fill_horizontal"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:drawableLeft="@drawable/icn_grey"
+        android:text=" Status-Not Available"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_margin="1dp"
+        android:layout_gravity="fill_horizontal"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Q-2.How to check Outlook Status of Room?"
+        android:textSize="15sp"
+        android:layout_margin="1dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text="Ans. This information is coming for each room under the parameter Outlook"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text="Outlook: Unreserved"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorGreen" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text=" - Room is Unreserved and is open for booking"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text="Outlook: Reserved"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorRed" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text=" - Room is reserved and is not available for booking"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text="Outlook: NA"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text=" - Room Outlook Status is not available"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Q-3. How to book the room from app?"
+        android:textSize="14sp"
+        android:layout_margin="1dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text="Ans. Please click on 'Tap to Book Room' button for the room to be booked , fill the details. Click on the 'Submit' button.
+On successful booking, the Organizer and Attendees will get the e-mail notification and Calender-Event will be added.
+Note -
+Organizer Email (M) should be of nokia.com domain only
+Attendees Email (O) should be comma (,) separated if multiple attendees are added
+Subject (Mandatory field)
+"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Q-4.How to cancel the Booked Meeting Room?"
+        android:textSize="14sp"
+        android:layout_margin="1dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_margin="1dp"
+        android:text="Ans. Only those meeting which are booked by SMR can be cancelled. Only organizer can cancel the meeting.
+The cancellation link is provided in the Meeting Room Confirmation Email send by smartmeeting.admin@nokia.com
+"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_gravity="fill"
+        android:textColor="@color/colorBlack" />
+</LinearLayout>

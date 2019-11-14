@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:background="@color/colorBackGround"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<include-->
+        <!--android:id="@+id/app_bar"-->
+        <!--layout="@layout/app_bar"></include>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_time_sydney"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="110dp"-->
+        <!--android:text="@string/tv_room_time"-->
+        <!--android:textSize="11dp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_status_sydney"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/tv_time_sydney"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="@string/tv_room_status"-->
+        <!--android:textSize="11dp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/btn_sydney"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_above="@+id/tv_status_sydney"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@mipmap/icn_grey" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_fifthflr"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="137dp"-->
+        <!--android:text="@string/fifth_floor_view"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_fifthflr_refresh"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="187dp"-->
+        <!--android:background="@mipmap/ic_refresh" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="54dp"-->
+        <!--android:background="@color/colorNokia"-->
+        <!--app:srcCompat="@mipmap/img_room_nokia" />-->
+
+
+<!--</RelativeLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar">
+    </include>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/colorNokia"
+        app:srcCompat="@mipmap/img_room_nokia" />
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:id="@+id/ll_fif_sydney"
+        android:layout_height="140dp"
+        android:layout_weight="0"
+        android:layout_margin="20sp"
+        android:background="@drawable/button_rounded_room"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/room_sydney"
+            android:textColor="@color/colorWhite"
+            />
+        <ImageView
+            android:id="@+id/btn_sydney"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icn_grey" />
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_dstatus_sydney"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/tv_room_devicestatus"-->
+            <!--android:textColor="@color/colorWhite" />-->
+
+        <TextView
+            android:id="@+id/tv_ostatus_sydney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_room_outlookstatus"
+            android:textColor="@color/colorWhite" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_time_sydney"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/tv_room_time"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="@color/colorWhite" />-->
+
+        <TextView
+            android:id="@+id/tv_bookroom_sydney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_room_book_room"
+            android:textSize="12sp"
+            android:textColor="@color/colorYellow" />
+
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_secondflr_refresh"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="-154dp"-->
+    <!--android:background="@mipmap/ic_refresh"-->
+
+    <!--android:layout_gravity="center_horizontal" />-->
+</LinearLayout>

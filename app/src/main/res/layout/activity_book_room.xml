@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"-->
+    <!--android:background="@color/colorBackGround"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/edttxt_sdate"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignEnd="@+id/textView8"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="136dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="datetime"-->
+        <!--android:onClick="chooseFromDate"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:layout_width="95dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignTop="@+id/edttxt_sdate"-->
+        <!--android:layout_marginStart="28dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Start Date" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/edttxt_orgeml"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignStart="@+id/edttxt_sdate"-->
+        <!--android:layout_alignTop="@+id/textView6"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="text" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView6"-->
+        <!--android:layout_width="96dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_marginBottom="165dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Organizer Email" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/edttxt_atdeml"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/edttxt_sdate"-->
+        <!--android:layout_marginBottom="105dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="text" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView7"-->
+        <!--android:layout_width="92dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_alignTop="@+id/edttxt_atdeml"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Attendies Email" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView8"-->
+        <!--android:layout_width="285dp"-->
+        <!--android:layout_height="36dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="70dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="Enter Booking Details" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/edttxt_subject"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/btn_booking"-->
+        <!--android:layout_alignStart="@+id/edttxt_sdate"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="text" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView9"-->
+        <!--android:layout_width="93dp"-->
+        <!--android:layout_height="46dp"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_alignTop="@+id/edttxt_subject"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Subject" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/edttxt_stime"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignStart="@+id/edttxt_sdate"-->
+        <!--android:layout_marginTop="190dp"-->
+        <!--android:onClick="chooseFromTime"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="date" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="96dp"-->
+        <!--android:layout_height="44dp"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_alignTop="@+id/edttxt_stime"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Start Time" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_booking"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignEnd="@+id/edttxt_sdate"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:text="Book Room" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/edttxt_edate"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignStart="@+id/edttxt_sdate"-->
+        <!--android:layout_marginTop="244dp"-->
+        <!--android:ems="10"-->
+        <!--android:onClick="chooseToDate"-->
+        <!--android:inputType="date" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="94dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_height="39dp"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_alignTop="@+id/edttxt_edate"-->
+        <!--android:text="End Date" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/edttxt_etime"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/edttxt_sdate"-->
+        <!--android:layout_marginBottom="222dp"-->
+        <!--android:onClick="chooseToTime"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="date" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="94dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_alignTop="@+id/edttxt_etime"-->
+        <!--android:text="End Time" />-->
+
+    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/edttxt_roomname"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignStart="@+id/edttxt_sdate"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="79dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:ems="10"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:inputType="text" />&ndash;&gt;-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView11"-->
+        <!--android:layout_width="85dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_alignTop="@+id/spinner_room"-->
+        <!--android:text="Room Name" />-->
+
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner_room"-->
+        <!--android:layout_width="213dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="140dp"-->
+        <!--android:prompt="@string/spinner_title"-->
+        <!--android:layout_marginTop="85dp" />-->
+
+    <!--&lt;!&ndash;<AutoCompleteTextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/autotv_roomname"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="212dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignStart="@+id/edttxt_sdate"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="75dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/btn_confirm"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignStart="@+id/textView5"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Confirm" />&ndash;&gt;-->
+<!--</RelativeLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="5sp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:background="@color/colorNokia"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Enter Room Booking Details"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="2sp"
+        android:layout_centerInParent="true">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:text="Room Name"/>
+
+        <Spinner
+        android:id="@+id/spinner_room"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:prompt="@string/spinner_title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="2sp"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:text="Start Date"/>
+
+        <EditText
+        android:id="@+id/edttxt_sdate"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="datetime"
+            android:layout_marginLeft="10dp"
+        android:onClick="chooseFromDate"/>
+
+        <EditText
+            android:id="@+id/edttxt_stime"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="chooseFromTime"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_margin="2sp"-->
+        <!--android:layout_centerInParent="true">-->
+        <!--<Button-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:text="Start Time"/>-->
+
+        <!--<EditText-->
+        <!--android:id="@+id/edttxt_stime"-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="50dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+        <!--android:onClick="chooseFromTime"-->
+        <!--android:inputType="date" />-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="2sp"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:text="End Date"/>
+
+        <EditText
+        android:id="@+id/edttxt_edate"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="chooseToDate"
+        android:inputType="date" />
+
+        <EditText
+            android:id="@+id/edttxt_etime"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="chooseToTime"
+            android:ems="10"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_margin="2sp"-->
+        <!--android:layout_centerInParent="true">-->
+        <!--<Button-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:text="End Time"/>-->
+        <!--<EditText-->
+        <!--android:id="@+id/edttxt_etime"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:onClick="chooseToTime"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="date" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_margin="2sp"-->
+        <!--android:layout_centerInParent="true">-->
+        <!--<Button-->
+            <!--android:layout_width="150dp"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:text="Organizer Email"/>-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/edttxt_orgeml"-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:inputType="text" />-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="2sp"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="150dp"
+            android:textAllCaps="false"
+            android:layout_height="50dp"
+            android:text="Attendee Email"/>
+
+        <EditText
+            android:id="@+id/edttxt_atdeml"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="text" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="2sp"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:text="Subject"/>
+        <EditText
+            android:id="@+id/edttxt_subject"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="2sp"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_booking"
+            android:textAllCaps="false"
+            android:background="@drawable/button_rounded"
+            android:textColor="@color/colorWhite"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

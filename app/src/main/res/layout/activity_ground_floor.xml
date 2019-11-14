@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar">
+    </include>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/colorNokia"
+        app:srcCompat="@mipmap/img_room_nokia" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_weight="0"
+            android:id="@+id/ll_gf_scorpius"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_scorpius"
+                android:textColor="@color/colorWhite" />
+            <ImageView
+                android:id="@+id/btn_scorpius"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_scorpius"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+            <TextView
+                android:id="@+id/tv_ostatus_scorpius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_scorpius"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_bookroom_scorpius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/ll_gf_scutum"
+            android:layout_weight="0"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_scutum"
+                android:textColor="@color/colorWhite" />
+            <ImageView
+                android:id="@+id/btn_scutum"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_scutum"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+            <TextView
+                android:id="@+id/tv_ostatus_scutum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_scutum"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_bookroom_scutum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/ll_gf_sagittarius"
+            android:layout_weight="0"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_sagittarius"
+                android:textColor="@color/colorWhite" />
+            <ImageView
+                android:id="@+id/btn_sagittarius"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_sagittarius"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+            <TextView
+                android:id="@+id/tv_ostatus_sagittarius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_sagittarius"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_bookroom_sagittarius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/ll_gf_volans"
+            android:layout_weight="0"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_volans"
+                android:textColor="@color/colorWhite" />
+            <ImageView
+                android:id="@+id/btn_volans"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_volans"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_ostatus_volans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_volans"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+            <TextView
+                android:id="@+id/tv_bookroom_volans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="20sp"
+            android:id="@+id/ll_gf_puppis"
+            android:layout_weight="0"
+            android:background="@drawable/button_rounded_room"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/room_puppis"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/btn_pupis"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icn_grey" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_dstatus_puppis"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_devicestatus"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_ostatus_puppis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_outlookstatus"
+                android:textColor="@color/colorWhite" />
+            <!--<TextView-->
+                <!--android:id="@+id/tv_time_puppis"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tv_room_time"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/colorWhite" />-->
+
+            <TextView
+                android:id="@+id/tv_bookroom_puppis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_room_book_room"
+                android:textSize="12sp"
+                android:textColor="@color/colorYellow" />
+
+        </LinearLayout>
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_grndflr_refresh"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:background="@mipmap/ic_refresh" />-->
+    </LinearLayout>
+
+
+
+</LinearLayout>

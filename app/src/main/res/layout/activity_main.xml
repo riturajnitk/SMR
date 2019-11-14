@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar">
+    </include>
+
+
+    <Button
+        android:id="@+id/btn_groundflr"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="126dp"
+        android:background="@drawable/button_rounded"
+        android:drawableTop="@mipmap/ic_meeting_floor"
+        android:text="@string/room_groundfloor"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_firstflr"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_groundflr"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/button_rounded"
+        android:drawableTop="@mipmap/ic_meeting_floor"
+        android:text="@string/room_firstfloor"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_secondflr"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_groundflr"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/button_rounded"
+        android:drawableTop="@mipmap/ic_meeting_floor"
+        android:text="@string/room_secondfloor"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_fifthflr"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignStart="@+id/btn_firstflr"
+        android:layout_alignTop="@+id/btn_secondflr"
+        android:background="@drawable/button_rounded"
+        android:drawableTop="@mipmap/ic_meeting_floor"
+        android:text="@string/room_fifthfloor"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="155dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--app:srcCompat="@mipmap/img_room_nokia" />-->
+
+    <ImageView
+        android:id="@+id/imgv_mf_calendar"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btn_groundflr"
+        app:srcCompat="@mipmap/icn_calendar" />
+
+    <TextView
+        android:id="@+id/tv_mf_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/imgv_mf_calendar"
+        android:layout_toEndOf="@+id/imgv_mf_calendar"
+        android:text="@string/current_date_time"
+        android:textColor="@color/colorBlack"
+        android:textSize="11sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imgv_mf_location"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@mipmap/icn_map_location" />
+
+    <TextView
+        android:id="@+id/tv_mf_location"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imgv_mf_location"
+        android:text="@string/room_green_boulevard"
+        android:textColor="@color/colorBlack"
+        android:textSize="11sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_above="@+id/btn_groundflr"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-91dp"
+        android:background="@color/colorNokia"
+        app:srcCompat="@mipmap/img_room_nokia" />
+</RelativeLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<android.support.v4.widget.DrawerLayout android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+<!--<android.support.v7.widget.LinearLayoutCompat-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:menu="@menu/menu_actions"-->
+        <!--android:layout_gravity="start">-->
+
+    <!--</android.support.design.widget.NavigationView>-->
+<!--</android.support.v7.widget.LinearLayoutCompat>-->
+<!--<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<include-->
+        <!--layout="@layout/app_bar"-->
+        <!--android:id="@+id/app_bar">-->
+    <!--</include>-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_groundflr"-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="140dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="31dp"-->
+        <!--android:layout_marginTop="126dp"-->
+        <!--android:background="@drawable/button_rounded"-->
+        <!--android:drawableTop="@mipmap/ic_meeting_floor"-->
+        <!--android:text="@string/room_groundfloor"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textSize="24sp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_firstflr"-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="140dp"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignTop="@+id/btn_groundflr"-->
+        <!--android:layout_marginEnd="31dp"-->
+        <!--android:background="@drawable/button_rounded"-->
+        <!--android:drawableTop="@mipmap/ic_meeting_floor"-->
+        <!--android:text="@string/room_firstfloor"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textSize="24sp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_secondflr"-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="140dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/btn_groundflr"-->
+        <!--android:layout_marginBottom="126dp"-->
+        <!--android:background="@drawable/button_rounded"-->
+        <!--android:drawableTop="@mipmap/ic_meeting_floor"-->
+        <!--android:text="@string/room_secondfloor"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textSize="24sp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_fifthflr"-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="140dp"-->
+        <!--android:layout_alignStart="@+id/btn_firstflr"-->
+        <!--android:layout_alignTop="@+id/btn_secondflr"-->
+        <!--android:background="@drawable/button_rounded"-->
+        <!--android:drawableTop="@mipmap/ic_meeting_floor"-->
+        <!--android:text="@string/room_fifthfloor"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textSize="24sp" />-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/imageView"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="155dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="55dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:srcCompat="@mipmap/img_room_nokia" />&ndash;&gt;-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imgv_mf_calendar"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_toEndOf="@+id/btn_groundflr"-->
+        <!--app:srcCompat="@mipmap/icn_calendar" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_mf_date_time"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="49dp"-->
+        <!--android:layout_alignTop="@+id/imgv_mf_calendar"-->
+        <!--android:layout_toEndOf="@+id/imgv_mf_calendar"-->
+        <!--android:text="@string/current_date_time"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:textSize="11sp"-->
+        <!--android:textStyle="normal" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imgv_mf_location"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--app:srcCompat="@mipmap/icn_map_location" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_mf_location"-->
+        <!--android:layout_width="101dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_toEndOf="@+id/imgv_mf_location"-->
+        <!--android:text="@string/room_green_boulevard"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:textSize="11sp"-->
+        <!--android:textStyle="normal" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:layout_above="@+id/btn_groundflr"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="-91dp"-->
+        <!--android:background="@color/colorNokia"-->
+        <!--app:srcCompat="@mipmap/img_room_nokia" />-->
+<!--</RelativeLayout>-->
+
+<!--</android.support.v4.widget.DrawerLayout>-->
